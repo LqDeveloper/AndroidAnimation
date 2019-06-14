@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bitmapFactory"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:text="BitmapFactory"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/imageDector"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:text="ImageDecoder"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/imageCanvas"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:text="绘图"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/animation"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:text="逐帧动画"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/bujian"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:text="补间动画"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/shuxing"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:text="属性动画"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/surfaceView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:text="SurfaceView"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+</LinearLayout>
